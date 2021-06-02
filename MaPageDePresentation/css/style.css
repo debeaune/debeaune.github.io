@@ -1,0 +1,133 @@
+header
+{
+  border-top: 8px solid #4682B4;
+  margin-top:none;
+  height:135px;
+  top:0;
+  position:fixed;
+}
+
+.conteneur
+{
+  display:flex;
+  flex-flow: column-wrap;
+  margin-top:20px;
+  overflow:scroll;
+}
+
+.conteneur > div
+{
+  width:50%;
+  padding:10%;
+  flex-direction:column;
+  padding-top:45px;
+  margin-top:85px;
+}
+
+.grid{
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap: 10px;
+  display:grid;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content:space-between;
+  background:white;
+  margin:0;
+}
+
+nav > div:first-child
+{
+  margin-top:25px;
+  margin-left:45px;
+  grid-column: 1 / 3;
+  grid-row:1;
+  align-self;
+  color:solid #4682B4;
+  font-size:20px;
+}
+
+nav > div:nth-child(2)
+{
+  margin-top:25px;
+  margin-left:125px;
+  grid-column: 2 / 3;
+  grid-row:1;
+  color:solid #4682B4;
+  font-size:20px;
+}
+
+nav a:hover
+{
+  color: #191970;
+}
+
+#avatar
+{
+  grid-column: 3 / 3;
+  grid-row:1;
+  width:120px;
+  height:120px;
+  padding-top:15px;
+  padding-left:935px;
+  margin-right:425px;
+}
+
+body
+{
+  background: #FFFFE0;
+  margin:0px;
+  width:100%;
+}
+
+.column1
+{
+  padding-top:60px;
+}
+
+.column1 p
+{
+  font-size: 1em;
+}
+
+.column2
+{
+  margin-right:10px;
+  margin-top:130px!important;
+  width: 490px;
+  height:650px;
+  box-shadow: 0px 2px 5px #1c1a19;
+  border-radius: 5px;
+  padding-top: 125px;
+  padding-bottom:35px;
+  color: #4682B4;
+  font-size: 0.9em;
+}
+
+.column1 h2
+{
+  color:#4682B4;
+  font-weight:bold;
+}
+
+#asfalia{
+  margin-left:70px;
+}
+
+#titleAsfalia{
+  color:#4682B4
+  bold;
+}
+
+#titlePasticceria{
+  color:#4682B4
+  bold;
+}
+
+#pb
+{
+  margin-left:70px;
+}
+
+footer
+{
+  border-top: 4px solid #4682B4;
+}
